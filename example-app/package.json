@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
     "expo": "~49.0.16",
     "expo-crop-image": "github:Dadacticiel/expo-crop-image",
     "expo-image-manipulator": "^11.5.0",
@@ -19,8 +20,7 @@
     "react-native": "^0.72.6",
     "react-native-gesture-handler": "^2.13.4",
     "react-native-web": "^0.19.9",
-    "recoil": "^0.7.7",
-    "@expo/webpack-config": "^19.0.0"
+    "recoil": "^0.7.7"
   },
   "devDependencies": {
     "@babel/core": "^7.23.2",
