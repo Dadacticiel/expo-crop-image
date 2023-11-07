@@ -16,6 +16,7 @@ type IconProps = {
 }
 
 export type EditorOptions = {
+  type?: 'Modal' | 'View'
   backgroundColor?: string
   controlBar?: {
     position?: 'top' | 'bottom'

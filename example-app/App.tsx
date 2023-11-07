@@ -24,6 +24,12 @@ export default function App() {
   return (
     <>
       <ImageEditor
+          editorOptions={{
+            type: 'View',
+            controlBar: {
+              position: 'bottom'
+            }
+          }}
         isVisible={showEditor}
         fixedAspectRatio={1}
         onEditingCancel={() => setShowEditor(false)}

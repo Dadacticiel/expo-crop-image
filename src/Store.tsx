@@ -62,6 +62,7 @@ export const isEditState = atom({
 })
 
 export const editorOptionsState = atom<EditorOptions>({
+  type: 'Modal',
   key: 'editorOptions',
   default: {
     backgroundColor: '#222',

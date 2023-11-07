@@ -134,13 +134,25 @@ export function ImageEditorView({ processingComponent }: Props) {
 }
 
 export function ImageEditor({ isVisible, ...props }: ImageEditorProps) {
-  return (
-    <Modal visible={isVisible} style={styles.modalContainer}>
-      <RecoilRoot>
-        <ImageEditorCore {...props} />
-      </RecoilRoot>
-    </Modal>
-  )
+  if(props.editorOptions?.type === 'Modal') {
+    return (
+        <Modal visible={isVisible} style={styles.modalContainer}>
+          <RecoilRoot>
+            <ImageEditorCore {...props} />
+          </RecoilRoot>
+        </Modal>
+    )
+  } else if(isVisible) {
+    return (
+        <View style={styles.modalContainer}>
+          <RecoilRoot>
+            <ImageEditorCore {...props} />
+          </RecoilRoot>
+        </View>
+    )
+  } else {
+    return (<></>)
+  }
 }
 
 const styles = StyleSheet.create({
