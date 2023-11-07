@@ -152,4 +152,3 @@ const styles = StyleSheet.create({
     paddingHorizontal: 4,
   },
 })
-//# sourceMappingURL=ControlBar.js.map

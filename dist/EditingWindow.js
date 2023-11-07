@@ -78,4 +78,3 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 })
-//# sourceMappingURL=EditingWindow.js.map

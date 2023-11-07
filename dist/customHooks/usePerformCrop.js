@@ -44,4 +44,3 @@ export const usePerformCrop = () => {
     }
   }
 }
-//# sourceMappingURL=usePerformCrop.js.map

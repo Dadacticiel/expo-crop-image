@@ -27,4 +27,3 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 })
-//# sourceMappingURL=Icon.js.map

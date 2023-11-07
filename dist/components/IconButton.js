@@ -7,4 +7,3 @@ export function IconButton({ text, iconID, color, ...buttonProps }) {
     </TouchableOpacity>
   )
 }
-//# sourceMappingURL=IconButton.js.map
