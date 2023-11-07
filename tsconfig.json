@@ -11,8 +11,9 @@
     "skipLibCheck": true,
     "jsx": "react-native",
     "removeComments": true,
-    "typeRoots": ["src/@types"] /* Skip type checking all .d.ts files. */
+    "declaration": true,
+    "typeRoots": ["dist/@types"] /* Skip type checking all .d.ts files. */
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
-  "exclude": ["node_modules", "example-app"]
+  "exclude": ["node_modules", "dist", "example-app"]
 }
