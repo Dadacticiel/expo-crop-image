@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "target": "ES2018" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
-    "module": "amd" /* Specify what module code is generated. */,
+    "module": "ES6" /* Specify what module code is generated. */,
     "sourceMap": true /* Create source map files for emitted JavaScript files. */,
-    "outFile": "dist/index.js" /* Specify an output folder for all emitted files. */,
+    "outDir": "dist" /* Specify an output folder for all emitted files. */,
     "esModuleInterop": true,
     "moduleResolution": "Node" /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
