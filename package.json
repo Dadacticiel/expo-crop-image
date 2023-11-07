@@ -2,8 +2,8 @@
   "name": "expo-crop-image",
   "version": "0.2.1",
   "description": "Allows user to crop image with given aspect ratio for react native using expo on Android and IOS - (Workaround for IOS always square images).",
-  "main": "dist/index.js",
-  "types": "dist/@types/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/@types/index.d.ts",
   "scripts": {
     "build": "tsc --build && npm run move-types",
     "build:dev": "rm -rf ./example-app/node_modules/expo-crop-image && tsc --build tsconfig.dev.json && npm run move-types:dev",
